@@ -63,7 +63,7 @@ table {
 }
 
 .imgCapsule {
-  background-image: url(./images/scaleAndCereal.png);
+  background-image: url(scaleAndCereal300.png);
   background-size: contain;
   background-repeat: no-repeat;
   width: 300px;

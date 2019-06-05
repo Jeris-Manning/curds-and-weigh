@@ -1,0 +1,149 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+.flexCapsule {
+  height: 573px;
+  width:800px;
+  
+  display: flex;
+  margin: 10px auto;
+
+}
+
+input, input:focus {
+  -webkit-appearance: textfield;
+  background-color: transparent;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  padding: 1px;
+  border: none;
+  border-width: 0;
+  box-shadow: none;
+  display: block;
+  color: black;
+  outline: none;
+  
+  
+}
+
+
+::placeholder{
+  color: darkred;
+  opacity: .7;
+}
+select {
+  -webkit-appearance: menulist;
+  box-sizing: border-box;
+  align-items: center;
+  white-space: pre;
+  -webkit-rtl-ordering: logical;
+  color: black;
+  background-color: transparent;
+  cursor: default;
+  border: none;
+  display: block;
+  opacity: .7;
+   width: 85%;
+}
+
+#bagCell {
+  background-image: url("images/brownBag_300.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width:300px;
+  height: 573px;
+  
+  margin-right: 5px;
+  
+  
+
+}
+
+#formText {
+  margin-left: 20%;
+  margin-top: 50%;
+  
+}
+
+.rowCell {
+  flex: 1 1 auto;
+}
+
+
+#bagCell *{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.2em;
+
+}
+
+#scaleCell {
+  background-image: url("images/scale500.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 517px;
+  
+}
+
+#totalWeight {
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 700;
+  font-size: 3em;
+  z-index: 100;
+  position: relative;
+  margin-left: 35%;
+  margin-top: 73.5%;
+  
+}
+
+button {
+  background-color: rgba(255, 255, 255, .5);
+  border: none;
+  box-shadow: none;
+  padding: 5px;
+  margin-top: 20px;
+}
