@@ -229,18 +229,20 @@ ingWeight.innerHTML = "0"
 function calcGrams(){
 
 let currentIng = ingList.selectedIndex;
-ingNumber = masterArray[currentIng].grams;
+ingNumber = masterArray[currentIng - 1].grams;
 
 
 let currentUnit = unitList.selectedIndex;
-unitNumber = unitArray[currentUnit].multiplier;
+unitNumber = unitArray[currentUnit - 1].multiplier;
 
 
 let ingWeight = document.getElementById("totalWeight");
 ingWeight.innerHTML = Math.round(ingNumber * unitNumber * unitCount.value);
 
+console.log(ingNumber);
+console.log(unitNumber);
+console.log(ingWeight);
 }
-
 
 
 
